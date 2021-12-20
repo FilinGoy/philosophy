@@ -1,0 +1,197 @@
+* {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6
+{
+    font-family: "Segoe UI", "Franklin Gothic Medium", "Arial", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: #5d6a86;
+}
+
+body {
+    background: url("polygon.jpg");
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+    font-size: small;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 600px;
+    padding: 20px;
+    margin: 10px;
+    border: solid 2px #749FF6;
+    box-shadow: 0px 0px 23px 0px rgba(116, 159, 246, 0.61);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+}
+
+.ecw-answerbox
+{
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+    background-color: #d3ddff;
+    border-color: #808080;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    padding: 15px;
+}
+
+.ecw-box
+{
+    border-style: solid;
+    border-width: 1pt;
+    cursor: pointer;
+    font-size: .12in;
+    font-weight: bold;
+    height: .18in;
+    overflow: hidden;
+    text-align: center;
+    width: .18in;
+}
+
+.ecw-boxcheated_sel
+{
+    background-color: #d7fffc;
+    border: 1px solid #C00000;
+    color: #2080D0;
+}
+
+.ecw-boxcheated_unsel
+{
+    background-color: #ffffff;
+    border: 1px solid #606060;
+    color: #2080D0;
+}
+
+.ecw-boxerror_sel
+{
+    background-color: #ffffff;
+    border-color: #C00000;
+    border: 1px dotted;
+    color: #BF0000;
+}
+
+.ecw-boxerror_unsel
+{
+    background-color: #FFF0F0;
+    border: 1px solid #606060;
+    color: #BF0000;
+}
+
+.ecw-boxnormal_sel
+{
+    background-color: #fffcf2;
+    border: 1px dotted #ff4949a4;
+    color: #000000;
+}
+
+.ecw-boxnormal_unsel
+{
+    background-color: #ffffff;
+    border: 1px solid #606060;
+    color: #000000;
+}
+
+.ecw-cluebox
+{
+    border-bottom-width: 1px;
+    border-color: #c0c0c0;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-top-width: 1px;
+    margin-top: 1em;
+    padding-bottom: .5em;
+    padding-left: 0pt;
+    padding-right: 0pt;
+    padding-top: .5em;
+}
+
+#crossword
+{
+    width: 100%;
+    box-sizing: border-box;
+    border: none !important;
+    border-style: solid;
+    border-width: 2px;
+    padding: .5em;
+    font-family: "Segoe UI", "Verdana", "Arial", sans-serif;
+    font-size: small;
+    margin-bottom: 5em;
+}
+
+td {
+    width: 1.8em;
+    height: 1.5em;
+}
+
+.ecw-copyright
+{
+    margin-bottom: 1em;
+    font-size: x-small;
+    font-family: "Segoe UI", "Franklin Gothic Medium", "Arial", sans-serif;
+}
+
+.ecw-input
+{
+    font-family: "Segoe UI", "Verdana", "Arial", sans-serif;
+}
+
+.ecw-wordlabel
+{
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.ecw-wordinfo
+{
+    font-size: 8pt;
+    color: #808080;
+}
+
+.ecw-worderror
+{
+    color: #c00000;
+    font-weight: bold;
+    display: none;
+    margin-top: 1em;
+}
+
+#congratulations {
+    background-color: #ffffeb;
+}
+
+button {
+    box-sizing: border-box;
+    background-color: #EBEBEB;
+    color: #3B3E41;
+    vertical-align: middle;
+    padding: 5px 5px;
+    min-width: 100px;
+    padding: 5px 15px;
+    border: solid 1px #749FF6;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #749FF6;
+    color: white;
+}
+
+button:active {
+    background-color: #5f94fd;
+    color: rgba(255, 255, 255, 0.781);
+}

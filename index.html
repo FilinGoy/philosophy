@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Философия</title>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <div id="waitmessage" class="ecw-answerbox" style="display: none;">Пожалуйста, подождите прогрузку сайта...</div>
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                        <table id="crossword" cellpadding="0" cellspacing="0"
+                            style="display: block; border-collapse: collapse;">
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c008000" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td id="c000001" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c001001" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c002001" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c003001" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c004001" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c005001" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c006001" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c007001" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c008001" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c012001" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c008002" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c012002" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c013002" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c014002" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c015002" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c016002" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c017002" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c008003" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c009003" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c010003" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c011003" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c012003" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c008004" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c012004" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c016004" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td id="c001005" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c004005" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c008005" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c011005" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c012005" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c013005" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c014005" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c015005" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c016005" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c017005" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c018005" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td id="c001006" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c004006" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c008006" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c012006" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c016006" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td id="c001007" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c004007" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c008007" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c012007" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c015007" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c016007" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c017007" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c018007" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c019007" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c020007" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td id="c001008" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c004008" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c008008" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c012008" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c016008" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c019008" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td id="c001009" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c004009" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c008009" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c012009" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c016009" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c019009" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td id="c001010" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c004010" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td id="c006010" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td id="c008010" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td id="c010010" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c011010" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c012010" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c013010" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c014010" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td id="c016010" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c019010" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td id="c001011" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c004011" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td id="c006011" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td id="c008011" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c012011" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c016011" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td id="c000012" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c001012" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c002012" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c003012" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c004012" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c005012" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c006012" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c007012" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td id="c008012" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c016012" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td id="c001013" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c006013" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c016013" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td id="c006014" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                        </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td id="c000015" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                    </td>
+                                    <td id="c001015" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                    </td>
+                                    <td id="c002015" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                    </td>
+                                    <td id="c003015" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                    </td>
+                                    <td id="c004015" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                    </td>
+                                    <td id="c005015" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                    </td>
+                                    <td id="c006015" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                    </td>
+                                    <td id="c007015" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                    </td>
+                                    <td id="c008015" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                    </td>
+                                    <td id="c009015" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                    </td>
+                                    <td id="c010015" class="ecw-box ecw-boxnormal_unsel" onclick="SelectThisWord(event);">
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                            <div style="display: flex; justify-content: space-around; margin-bottom: 50px;">
+                                <button id="checkbutton" type="button" onclick="CheckClick();">Проверить</button>
+                                <p>&lt;== Проверить все слова.</p>
+                            </div>
+                        </table>
+    
+                    <tr valign="top">
+    
+                        <div id="welcomemessage" class="ecw-answerbox" style="">
+                            <h3>Приветствую!</h3>
+                            <p>Кликни по любому слову чтобы начать!</p>
+                        </div>
+    
+                        <div id="answerbox" class="ecw-answerbox" style="display:none;">
+                            <h3 id="wordlabel" class="ecw-wordlabel"> </h3>
+                            <div id="wordinfo" class="ecw-wordinfo"> </div>
+                            <div id="wordclue" class="ecw-cluebox"> </div>
+                            <div style="margin-top: 1em;">
+                                <input class="ecw-input" id="wordentry" type="text" size="24"
+                                    style="font-weight: bold; text-transform:uppercase; width: 98%;"
+                                    onkeypress="WordEntryKeyPress(event)" onchange="WordEntryKeyPress(event)">
+                            </div>
+                            <div id="worderror" class="ecw-worderror"></div>
+    
+                            <table border="0" cellspacing="0" cellpadding="0" width="100%" style="margin-top:1em;">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <button id="cheatbutton" type="button" class="ecw-input ecw-button"
+                                                onclick="CheatClick();">Раскрыть слово</button>
+                                        </td>
+                                        <td align="right">
+                                            <button id="okbutton" type="button" class="ecw-input ecw-button"
+                                                onclick="OKClick();" style="font-weight: bold;">OK</button> 
+                                            <button id="cancelbutton" type="button" class="ecw-input ecw-button"
+                                                onclick="DeselectCurrentWord();">Отмена</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+    
+                        </div>
+    
+                        <div id="congratulations" class="ecw-answerbox">
+                            <h3>Поздравляю!</h3>
+                            <p>Ты угадал все слова и это мои поздравления тебе!
+                            </p>
+                        </div>
+    
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
