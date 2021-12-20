@@ -195,3 +195,7 @@ button:active {
     background-color: #5f94fd;
     color: rgba(255, 255, 255, 0.781);
 }
+
+.ecw-box-main {
+    background-color: #5f94fd50;
+}
